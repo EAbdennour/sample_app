@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.8'
 gem 'bootstrap-sass', '2.0.4'
+gem 'bcrypt-ruby', '3.0.1'
 gem 'pg', '0.12.2'
 
 group :development, :test do
@@ -10,6 +11,7 @@ group :development, :test do
   gem 'guard-rspec', '0.5.5'
   gem 'guard-spork', '0.3.2'
   gem 'spork', '0.9.0'
+  gem 'annotate', '2.5.0'
 end
 
 # Gems used only for assets and not required
